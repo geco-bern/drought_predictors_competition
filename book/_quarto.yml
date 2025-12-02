@@ -1,0 +1,45 @@
+project:
+  type: book
+  output-dir: _book
+
+execute:
+  freeze: auto
+
+book:
+  title: "Drought Predictors Competition"
+  subtitle: ""
+  author: "Benjamin Stocker, Fabian Bernhard"
+  date: "2025/12/02"
+  page-navigation: true
+  chapters:
+    - index.qmd
+    - part: intro.qmd
+    - part: "Worked Examples"
+      chapters:
+      - drought_prediction.qmd
+    - exercises.qmd
+    - references.qmd
+  appendices:
+    - appendix_setup.qmd
+    - appendix_licensing.qmd
+    - appendix_config.qmd
+  favicon: "figures/favicon.ico"
+  twitter-card: true
+  search: true
+  repo-url: https://github.com/geco-bern/drought_predictors_competition/
+  sharing: [twitter, facebook]
+  navbar:
+    logo: "images/logo.png"
+    background: "#3A3A3A"
+    search: true
+    right:
+      - text: "Home"
+        file: index.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: 
+      light: [cosmo, theme-light.scss]
+      dark: [cosmo, theme-dark.scss]
