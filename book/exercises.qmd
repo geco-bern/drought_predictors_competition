@@ -1,4 +1,10 @@
-# Exercises {#sec-exercises}
+# Exercise {#sec-exercises}
+
+
+::: callout-note
+### TODO
+This document needs to be updated with the instructions.
+:::
 
 ## Phenology trends and algorithms
 

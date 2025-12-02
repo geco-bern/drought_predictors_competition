@@ -1,13 +1,28 @@
----
-title-block-banner: true
----
+# Introduction
 
-# Preface {.unnumbered}
+TODO: This book serves as an example of a machine learning (ML) based workflow
+to use earth observation predictors
+to quantify vegetation stress.
 
-In this free book I will focus on a set of examples which are rather limited in spatial scope, using just a handfull of pixels. In contrast to what the cloud computing revolution promised, many ideas start out from site or localized studies. The focus of this book on using just a handfull of pixels is therefore deliberate. This allows data to be as large as required, but as small as possible.
+TODO: it is an exercise in the framework for AGDS2 (link)
 
-Not only does this allow you to experiment with geo-spatial data on limited compute infrastructure, it also shows you that true science can be done with relatively modest means. You will learn to do big science with small data.
 
-This book is proudly GPT free, mistakes are my own.
+TODO: vegetation stress (expressed as fLUE on eddy-covariance sites).
 
-![](https://licensebuttons.net/l/by-nc-nd/4.0/88x31.png)
+TODO ...
+
+This book **requires prior knowledge** of programming in **R**, **git** and cloud based collaborative tools such as **Github**. 
+The target group are students of the course Applied Geodata Science II (AGDS II) at the University of Bern, Switzerland.
+The necessary prior knowledge covered by the courses AGDS I and II. Many of these concepts are described in the accompanying, free online book [AGDS](https://geco-bern.github.io/agds_book/).
+
+## Formal course work
+
+TODO: RMD and HTML
+
+TODO: Pull request to geco-bern/agds2_course/
+
+When reading this book as formal course work the requested format for handing in the exercises as listed in @sec-exercises is a single R markdown file (see REF), including its rendered html file.
+
+I will grade on the implementation of the code, as well as its critical assessment, and or trouble shooting. If you were stuck, document how you got unstuck in these assignments. If you are still stuck, list what efforts you made to get unstuck (and what failed results they yielded and how this informed your further reasoning). 
+
+Document problem solving extensively in between code blocks. Mention (cite) resources you consulted, packages used, etc. You will have to find the original source if you consult external resources, ChatGPT (or similar large language model chat services) are **not** a valid reference in and on itself.
