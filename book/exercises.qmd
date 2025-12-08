@@ -1,16 +1,46 @@
 # Exercise {#sec-exercises}
 
-## Drought prediction model
+## The prediction task
 
-- How can you improve the model used to predict fLUE in @sec-drought-prediction? 
-- Implement at least one of method to improve the model used.
-  - Hand in your `*.Rmd` and `*.html` as usual.
+The the present modelling task is to predict the physiological drought response, estimated by `fLUE`, from multispectral reflectances and the land surface temperature, paired with climate data and information about a site's vegetation type:
 
-- Demonstrate improved model skill by submitting your model results to our internal leaderboard
-  - The leaderboard requires you to submit a CSV file with your fLUE predicted values for the test data set
-    - Training data can be downloaded [in the data subfolder](https://github.com/geco-bern/drought_predictors_competition)
-    - Test data (out-of-sample) can be downloaded [in the data subfolder](https://github.com/geco-bern/drought_predictors_competition), note that this does not contain the target values of fLUE
-    - Submissions should be made as a **pull request** to the [AGDS2 course repository](https://github.com/geco-bern/agds2_course)
-    - Your CSV file with labels should be stored in `data/leaderboard/fLUE_fall_2025/[username]_results.csv`
-    - The file should be named `[username]_results.csv` (replace [username] with your github username)
+$$
+\begin{align}
+\mathrm{fLUE} \; \sim \; &\mathrm{NR\_B1} + \mathrm{NR\_B2} + \mathrm{NR\_B3} + \mathrm{NR\_B4} + \\
+& \mathrm{NR\_B5} + \mathrm{NR\_B6} + \mathrm{NR\_B7} + \mathrm{LST} + \mathrm{t2m\_era5} + \\ 
+& \mathrm{ssrd\_era5} + \mathrm{pcwd\_era5} + \mathrm{vegtype}
+\end{align}
+$$
+
+The model is to be trained with the aim to spatially generalise, that is, to predict fLUE at a new location, not see during model training.
+
+You are free to chose any machine learning algorithm that is suitable for the present task.
+
+::: {.callout-tip}
+
+## Hints
+
+- Good results may be obtained by using a Random Forest model. 
+- To train a model that generalises well to novel sites and is not overfitted to local conditions, use a cross-validation technique that delineates folds along sites. That is, a site's data is either fully in the validation fold or in the training fold, but never split up between them. In R caret, this can be implemented using 
+```{r eval = FALSE}
+folds <- caret::groupKFold(...)
+
+traincntrlParams <- caret::trainControl(
+  index = folds,
+  method = "cv"
+  ...
+  )
+```
+- The dates with fLUE value substantially below are relatively sparse in our dataset. However, we want a model that does not miss these (ecologically consequential) water stress events. To overemphasise sparse data during model training, respective dates' data can be duplicated. In our dataset, the logical variable `is_flue_drought` defines whether fLUE is substantially below 1.0. Use this as a basis for "upsampling" respective data with the function `step_upsample()` from the recipes package.
+- The model training and testing data can be obtained from the Git repository of this tutorial. To find it, follow the link by clicking on the Github icon in the menu bar, find the repository called `drought_predictors_competition`, owned by the Github organisation `geco-bern`. The respective files are called `competition2025_training_data.rds` and `competition2025_testing_data.rds`. Note that the testing data does not contain the column `flue`. This is the "truth" in our competition and is withheld from participants submitting their results.
+- Fill (impute) missing data. As long as you impute only predictor data based on other predictors' values, you may do this beforehand, i.e. not as part of a model training "recipe". KNN imputation often works well.
+- Dummy-encode categorical predictor variables
+
+:::
+
+## Take part in the competition
+
+Demonstrate improved model skill by submitting your model results to our internal leaderboard. The leaderboard requires you to submit a CSV file with your fLUE predicted values for the test data set. Submissions are made as a *pull request* to the AGDS 2 course repository [https://github.com/geco-bern/agds2_course](https://github.com/geco-bern/agds2_course).
+
+Your CSV file with labels should be stored in a file, added through your pull request. The file should have the following path with respect to the project directory: `data/leaderboard/fLUE_fall_2025/[username]_results.csv` (replace `[username]` with your Github username).
 

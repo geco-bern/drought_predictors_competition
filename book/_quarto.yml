@@ -7,19 +7,17 @@ execute:
   freeze: auto
 
 book:
-  title: "Drought Predictors Competition"
-  subtitle: ""
+  title: "Multispectral water stress monitoring"
+  subtitle: "A tutorial and competition to estimate drought impacts on the light use efficiency of photosynthesis from multispectral remote sensing data."
   author: "Benjamin Stocker, Fabian Bernhard"
   date: "2025/12/02"
   page-navigation: true
   chapters:
     - index.qmd
-    - drought_prediction.qmd
+    - context.qmd
     - exercises.qmd
     - references.qmd
   appendices:
-    - appendix_setup.qmd
-    - appendix_licensing.qmd
     - appendix_config.qmd
   favicon: "figures/favicon.ico"
   twitter-card: true
@@ -27,6 +25,7 @@ book:
   repo-url: https://github.com/geco-bern/drought_predictors_competition/
   sharing: [twitter, facebook]
   navbar:
+    title: " "
     logo: "images/logo.png"
     background: "#3A3A3A"
     search: true
@@ -38,6 +37,7 @@ bibliography: references.bib
 
 format:
   html:
+    mathjax: true
     theme: 
       light: [cosmo, theme-light.scss]
       dark: [cosmo, theme-dark.scss]
