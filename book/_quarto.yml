@@ -13,8 +13,7 @@ book:
   date: "2025/12/02"
   page-navigation: true
   chapters:
-    - part: index.qmd
-    - part: "Worked Examples"
+    - index.qmd
     - drought_prediction.qmd
     - exercises.qmd
     - references.qmd

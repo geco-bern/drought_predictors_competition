@@ -1,20 +1,16 @@
 # Exercise {#sec-exercises}
 
-::: callout-note
-### TODO
-This document needs to be updated with the instructions.
-:::
-
 ## Drought prediction model
 
-- How can you improve the model used to predict fLUE in REF? 
-- Implement at least one of method to improve the model used
+- How can you improve the model used to predict fLUE in @sec-drought-prediction? 
+- Implement at least one of method to improve the model used.
+  - Hand in your `*.Rmd` and `*.html` as usual.
 
 - Demonstrate improved model skill by submitting your model results to our internal leaderboard
-  - the leaderboard requires you to submit a CSV file with your fLUE predicted values for the test data set
-    - training data can be downloaded [in the data subfolder](https://github.com/geco-bern/drought_predictors_competition)
-    - test data (out-of-sample) can be downloaded [in the data subfolder](https://github.com/geco-bern/drought_predictors_competition), note that this does not contain the target values of fLUE
-    - submissions should be made as a **pull request** to the [AGDS2 course repository](https://github.com/geco-bern/agds2_course)
-    - your CSV file with labels should be stored in `data/leaderboard/fLUE_fall_2025/[username]_results.csv`
-    - the file should be named `[username]_results.csv` (replace [username] with your github username)
+  - The leaderboard requires you to submit a CSV file with your fLUE predicted values for the test data set
+    - Training data can be downloaded [in the data subfolder](https://github.com/geco-bern/drought_predictors_competition)
+    - Test data (out-of-sample) can be downloaded [in the data subfolder](https://github.com/geco-bern/drought_predictors_competition), note that this does not contain the target values of fLUE
+    - Submissions should be made as a **pull request** to the [AGDS2 course repository](https://github.com/geco-bern/agds2_course)
+    - Your CSV file with labels should be stored in `data/leaderboard/fLUE_fall_2025/[username]_results.csv`
+    - The file should be named `[username]_results.csv` (replace [username] with your github username)
 
