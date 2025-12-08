@@ -1,6 +1,6 @@
 {
   "R": {
-    "Version": "4.5.1",
+    "Version": "4.5.0",
     "Repositories": [
       {
         "Name": "CRAN",
@@ -9,21 +9,16 @@
     ]
   },
   "Packages": {
-    "CFtime": {
-      "Package": "CFtime",
-      "Version": "1.7.1",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "R6"
-      ],
-      "Hash": "5282ebcb9a43164dea0688f20f47d19b"
-    },
     "DBI": {
       "Package": "DBI",
       "Version": "1.2.3",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "RSPM",
+      "RemoteType": "standard",
+      "RemotePkgRef": "DBI",
+      "RemoteRef": "DBI",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "1.2.3",
       "Requirements": [
         "R",
         "methods"
@@ -78,6 +73,11 @@
       "Version": "1.2.2.2",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "ModelMetrics",
+      "RemoteRef": "ModelMetrics",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "1.2.2.2",
       "Requirements": [
         "R",
         "Rcpp",
@@ -90,6 +90,11 @@
       "Version": "2.6.1",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "R6",
+      "RemoteRef": "R6",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "2.6.1",
       "Requirements": [
         "R"
       ],
@@ -100,6 +105,11 @@
       "Version": "2.6.2",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "RANN",
+      "RemoteRef": "RANN",
+      "RemoteRepos": "https://cloud.r-project.org",
+      "RemoteSha": "2.6.2",
       "Hash": "3c15b582f2cb4394b4b2a1ba85a1e987"
     },
     "RColorBrewer": {
@@ -107,26 +117,26 @@
       "Version": "1.1-3",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "RColorBrewer",
+      "RemoteRef": "RColorBrewer",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "1.1-3",
       "Requirements": [
         "R"
       ],
       "Hash": "45f0398006e83a5b10b72a90663d8d8c"
-    },
-    "RNetCDF": {
-      "Package": "RNetCDF",
-      "Version": "2.11-1",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "R"
-      ],
-      "Hash": "152f8aff5e9d4493033fd6200e38d998"
     },
     "ROSE": {
       "Package": "ROSE",
       "Version": "0.0-4",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "ROSE",
+      "RemoteRef": "ROSE",
+      "RemoteRepos": "https://cloud.r-project.org",
+      "RemoteSha": "0.0-4",
       "Hash": "c6e79999925f0db3f2d88b187d014bf8"
     },
     "Rcpp": {
@@ -134,6 +144,11 @@
       "Version": "1.1.0",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "Rcpp",
+      "RemoteRef": "Rcpp",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "1.1.0",
       "Requirements": [
         "methods",
         "utils"
@@ -144,7 +159,12 @@
       "Package": "RcppEigen",
       "Version": "0.3.4.0.2",
       "Source": "Repository",
-      "Repository": "RSPM",
+      "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "RcppEigen",
+      "RemoteRef": "RcppEigen",
+      "RemoteRepos": "https://cloud.r-project.org",
+      "RemoteSha": "0.3.4.0.2",
       "Requirements": [
         "R",
         "Rcpp",
@@ -155,20 +175,30 @@
     },
     "S7": {
       "Package": "S7",
-      "Version": "0.2.0",
+      "Version": "0.2.1",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "S7",
+      "RemoteRef": "S7",
+      "RemoteRepos": "https://cloud.r-project.org",
+      "RemoteSha": "0.2.1",
       "Requirements": [
         "R",
         "utils"
       ],
-      "Hash": "5deb66b3ae702137e1f4162c11861e76"
+      "Hash": "9da85950949574264f92f91f0e23de26"
     },
     "SQUAREM": {
       "Package": "SQUAREM",
       "Version": "2021.1",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "SQUAREM",
+      "RemoteRef": "SQUAREM",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "2021.1",
       "Requirements": [
         "R"
       ],
@@ -179,16 +209,41 @@
       "Version": "1.2.1",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "askpass",
+      "RemoteRef": "askpass",
+      "RemoteRepos": "https://cloud.r-project.org",
+      "RemoteSha": "1.2.1",
       "Requirements": [
         "sys"
       ],
       "Hash": "c39f4155b3ceb1a9a2799d700fbd4b6a"
+    },
+    "backports": {
+      "Package": "backports",
+      "Version": "1.5.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "backports",
+      "RemoteRef": "backports",
+      "RemoteRepos": "https://cloud.r-project.org",
+      "RemoteSha": "1.5.0",
+      "Requirements": [
+        "R"
+      ],
+      "Hash": "e1e1b9d75c37401117b636b7ae50827a"
     },
     "base64enc": {
       "Package": "base64enc",
       "Version": "0.1-3",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "base64enc",
+      "RemoteRef": "base64enc",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "0.1-3",
       "Requirements": [
         "R"
       ],
@@ -199,6 +254,11 @@
       "Version": "4.6.0",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "bit",
+      "RemoteRef": "bit",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "4.6.0",
       "Requirements": [
         "R"
       ],
@@ -209,6 +269,11 @@
       "Version": "4.6.0-1",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "bit64",
+      "RemoteRef": "bit64",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "4.6.0-1",
       "Requirements": [
         "R",
         "bit",
@@ -219,11 +284,59 @@
       ],
       "Hash": "4f572fbc586294afff277db583b9060f"
     },
+    "blob": {
+      "Package": "blob",
+      "Version": "1.2.4",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "blob",
+      "RemoteRef": "blob",
+      "RemoteRepos": "https://cloud.r-project.org",
+      "RemoteSha": "1.2.4",
+      "Requirements": [
+        "methods",
+        "rlang",
+        "vctrs"
+      ],
+      "Hash": "40415719b5a479b87949f3aa0aee737c"
+    },
+    "broom": {
+      "Package": "broom",
+      "Version": "1.0.11",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "broom",
+      "RemoteRef": "broom",
+      "RemoteRepos": "https://cloud.r-project.org",
+      "RemoteSha": "1.0.11",
+      "Requirements": [
+        "R",
+        "backports",
+        "cli",
+        "dplyr",
+        "generics",
+        "glue",
+        "lifecycle",
+        "purrr",
+        "rlang",
+        "stringr",
+        "tibble",
+        "tidyr"
+      ],
+      "Hash": "7452b2d126c7dd86fd91a78f80867e22"
+    },
     "bslib": {
       "Package": "bslib",
       "Version": "0.9.0",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "bslib",
+      "RemoteRef": "bslib",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "0.9.0",
       "Requirements": [
         "R",
         "base64enc",
@@ -246,17 +359,45 @@
       "Version": "1.1.0",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "cachem",
+      "RemoteRef": "cachem",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "1.1.0",
       "Requirements": [
         "fastmap",
         "rlang"
       ],
       "Hash": "cd9a672193789068eb5a2aad65a0dedf"
     },
+    "callr": {
+      "Package": "callr",
+      "Version": "3.7.6",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "callr",
+      "RemoteRef": "callr",
+      "RemoteRepos": "https://cloud.r-project.org",
+      "RemoteSha": "3.7.6",
+      "Requirements": [
+        "R",
+        "R6",
+        "processx",
+        "utils"
+      ],
+      "Hash": "d7e13f49c19103ece9e58ad2d83a7354"
+    },
     "caret": {
       "Package": "caret",
       "Version": "7.0-1",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "caret",
+      "RemoteRef": "caret",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "7.0-1",
       "Requirements": [
         "ModelMetrics",
         "R",
@@ -278,6 +419,23 @@
       ],
       "Hash": "304c0d28bda6454aae3b14ae953e7824"
     },
+    "cellranger": {
+      "Package": "cellranger",
+      "Version": "1.1.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "cellranger",
+      "RemoteRef": "cellranger",
+      "RemoteRepos": "https://cloud.r-project.org",
+      "RemoteSha": "1.1.0",
+      "Requirements": [
+        "R",
+        "rematch",
+        "tibble"
+      ],
+      "Hash": "f61dbaec772ccd2e17705c1e872e9e7c"
+    },
     "class": {
       "Package": "class",
       "Version": "7.3-23",
@@ -295,7 +453,12 @@
       "Package": "classInt",
       "Version": "0.4-11",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "RSPM",
+      "RemoteType": "standard",
+      "RemotePkgRef": "classInt",
+      "RemoteRef": "classInt",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "0.4-11",
       "Requirements": [
         "KernSmooth",
         "R",
@@ -312,6 +475,11 @@
       "Version": "3.6.5",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "cli",
+      "RemoteRef": "cli",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "3.6.5",
       "Requirements": [
         "R",
         "utils"
@@ -323,6 +491,11 @@
       "Version": "0.8.0",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "clipr",
+      "RemoteRef": "clipr",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "0.8.0",
       "Requirements": [
         "utils"
       ],
@@ -333,6 +506,11 @@
       "Version": "0.7.3",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "clock",
+      "RemoteRef": "clock",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "0.7.3",
       "Requirements": [
         "R",
         "cli",
@@ -354,11 +532,34 @@
       ],
       "Hash": "61e097f35917d342622f21cdc79c256e"
     },
+    "conflicted": {
+      "Package": "conflicted",
+      "Version": "1.2.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "conflicted",
+      "RemoteRef": "conflicted",
+      "RemoteRepos": "https://cloud.r-project.org",
+      "RemoteSha": "1.2.0",
+      "Requirements": [
+        "R",
+        "cli",
+        "memoise",
+        "rlang"
+      ],
+      "Hash": "bb097fccb22d156624fd07cd2894ddb6"
+    },
     "cowplot": {
       "Package": "cowplot",
       "Version": "1.2.0",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "cowplot",
+      "RemoteRef": "cowplot",
+      "RemoteRepos": "https://cloud.r-project.org",
+      "RemoteSha": "1.2.0",
       "Requirements": [
         "R",
         "ggplot2",
@@ -376,6 +577,11 @@
       "Version": "0.5.2",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "cpp11",
+      "RemoteRef": "cpp11",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "0.5.2",
       "Requirements": [
         "R"
       ],
@@ -386,6 +592,11 @@
       "Version": "1.5.3",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "crayon",
+      "RemoteRef": "crayon",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "1.5.3",
       "Requirements": [
         "grDevices",
         "methods",
@@ -398,6 +609,11 @@
       "Version": "7.0.0",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "curl",
+      "RemoteRef": "curl",
+      "RemoteRepos": "https://cloud.r-project.org",
+      "RemoteSha": "7.0.0",
       "Requirements": [
         "R"
       ],
@@ -407,18 +623,61 @@
       "Package": "data.table",
       "Version": "1.17.8",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "RSPM",
+      "RemoteType": "standard",
+      "RemotePkgRef": "data.table",
+      "RemoteRef": "data.table",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "1.17.8",
       "Requirements": [
         "R",
         "methods"
       ],
       "Hash": "1d991cd6160fa7b1fdbd3689034cbd15"
     },
+    "dbplyr": {
+      "Package": "dbplyr",
+      "Version": "2.5.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "dbplyr",
+      "RemoteRef": "dbplyr",
+      "RemoteRepos": "https://cloud.r-project.org",
+      "RemoteSha": "2.5.1",
+      "Requirements": [
+        "DBI",
+        "R",
+        "R6",
+        "blob",
+        "cli",
+        "dplyr",
+        "glue",
+        "lifecycle",
+        "magrittr",
+        "methods",
+        "pillar",
+        "purrr",
+        "rlang",
+        "tibble",
+        "tidyr",
+        "tidyselect",
+        "utils",
+        "vctrs",
+        "withr"
+      ],
+      "Hash": "e38d7151c767b00b919091be4686e274"
+    },
     "diagram": {
       "Package": "diagram",
       "Version": "1.6.5",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "diagram",
+      "RemoteRef": "diagram",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "1.6.5",
       "Requirements": [
         "R",
         "graphics",
@@ -429,20 +688,30 @@
     },
     "digest": {
       "Package": "digest",
-      "Version": "0.6.37",
+      "Version": "0.6.39",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "digest",
+      "RemoteRef": "digest",
+      "RemoteRepos": "https://cloud.r-project.org",
+      "RemoteSha": "0.6.39",
       "Requirements": [
         "R",
         "utils"
       ],
-      "Hash": "33698c4b3127fc9f506654607fb73676"
+      "Hash": "d18028e978a88b2b16ef8d400cb49adf"
     },
     "dplyr": {
       "Package": "dplyr",
       "Version": "1.1.4",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "dplyr",
+      "RemoteRef": "dplyr",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "1.1.4",
       "Requirements": [
         "R",
         "R6",
@@ -461,11 +730,40 @@
       ],
       "Hash": "fedd9d00c2944ff00a0e2696ccf048ec"
     },
+    "dtplyr": {
+      "Package": "dtplyr",
+      "Version": "1.3.2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "dtplyr",
+      "RemoteRef": "dtplyr",
+      "RemoteRepos": "https://cloud.r-project.org",
+      "RemoteSha": "1.3.2",
+      "Requirements": [
+        "R",
+        "cli",
+        "data.table",
+        "dplyr",
+        "glue",
+        "lifecycle",
+        "rlang",
+        "tibble",
+        "tidyselect",
+        "vctrs"
+      ],
+      "Hash": "50bbedd3d5b6a4ddc3c3c1602456aa35"
+    },
     "e1071": {
       "Package": "e1071",
       "Version": "1.7-16",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "e1071",
+      "RemoteRef": "e1071",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "1.7-16",
       "Requirements": [
         "class",
         "grDevices",
@@ -481,7 +779,12 @@
       "Package": "evaluate",
       "Version": "1.0.5",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "RSPM",
+      "RemoteType": "standard",
+      "RemotePkgRef": "evaluate",
+      "RemoteRef": "evaluate",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "1.0.5",
       "Requirements": [
         "R"
       ],
@@ -492,6 +795,11 @@
       "Version": "2.1.2",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "farver",
+      "RemoteRef": "farver",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "2.1.2",
       "Hash": "680887028577f3fa2a81e410ed0d6e42"
     },
     "fastmap": {
@@ -499,6 +807,11 @@
       "Version": "1.2.0",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "fastmap",
+      "RemoteRef": "fastmap",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "1.2.0",
       "Hash": "aa5e1cd11c2d15497494c5292d7ffcc8"
     },
     "fontawesome": {
@@ -506,6 +819,11 @@
       "Version": "0.5.3",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "fontawesome",
+      "RemoteRef": "fontawesome",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "0.5.3",
       "Requirements": [
         "R",
         "htmltools",
@@ -517,7 +835,12 @@
       "Package": "forcats",
       "Version": "1.0.1",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "RSPM",
+      "RemoteType": "standard",
+      "RemotePkgRef": "forcats",
+      "RemoteRef": "forcats",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "1.0.1",
       "Requirements": [
         "R",
         "cli",
@@ -534,6 +857,11 @@
       "Version": "1.5.2",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "foreach",
+      "RemoteRef": "foreach",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "1.5.2",
       "Requirements": [
         "R",
         "codetools",
@@ -547,6 +875,11 @@
       "Version": "1.6.6",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "fs",
+      "RemoteRef": "fs",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "1.6.6",
       "Requirements": [
         "R",
         "methods"
@@ -555,9 +888,14 @@
     },
     "future": {
       "Package": "future",
-      "Version": "1.67.0",
+      "Version": "1.68.0",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "future",
+      "RemoteRef": "future",
+      "RemoteRepos": "https://cloud.r-project.org",
+      "RemoteSha": "1.68.0",
       "Requirements": [
         "R",
         "digest",
@@ -567,13 +905,18 @@
         "parallelly",
         "utils"
       ],
-      "Hash": "887043db011e3cb2e507390950a2ea0f"
+      "Hash": "ec7ea0f64c0731788f47efcd578d5423"
     },
     "future.apply": {
       "Package": "future.apply",
       "Version": "1.20.0",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "future.apply",
+      "RemoteRef": "future.apply",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "1.20.0",
       "Requirements": [
         "R",
         "future",
@@ -583,11 +926,43 @@
       ],
       "Hash": "42eb18487138fa2683ff92149e4bd01a"
     },
+    "gargle": {
+      "Package": "gargle",
+      "Version": "1.6.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "gargle",
+      "RemoteRef": "gargle",
+      "RemoteRepos": "https://cloud.r-project.org",
+      "RemoteSha": "1.6.0",
+      "Requirements": [
+        "R",
+        "cli",
+        "fs",
+        "glue",
+        "httr",
+        "jsonlite",
+        "lifecycle",
+        "openssl",
+        "rappdirs",
+        "rlang",
+        "stats",
+        "utils",
+        "withr"
+      ],
+      "Hash": "77fecfba06c868a6bfe2f0d60b2b6b36"
+    },
     "generics": {
       "Package": "generics",
       "Version": "0.1.4",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "generics",
+      "RemoteRef": "generics",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "0.1.4",
       "Requirements": [
         "R",
         "methods"
@@ -596,9 +971,14 @@
     },
     "ggplot2": {
       "Package": "ggplot2",
-      "Version": "4.0.0",
+      "Version": "4.0.1",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "ggplot2",
+      "RemoteRef": "ggplot2",
+      "RemoteRepos": "https://cloud.r-project.org",
+      "RemoteSha": "4.0.1",
       "Requirements": [
         "R",
         "S7",
@@ -614,32 +994,18 @@
         "vctrs",
         "withr"
       ],
-      "Hash": "3b4625a157bcbd82b937fcb3acdd2d85"
-    },
-    "ggthemes": {
-      "Package": "ggthemes",
-      "Version": "5.1.0",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "R",
-        "ggplot2",
-        "graphics",
-        "grid",
-        "lifecycle",
-        "methods",
-        "purrr",
-        "scales",
-        "stringr",
-        "tibble"
-      ],
-      "Hash": "16a4974681fc751a09a1250431361896"
+      "Hash": "1bfa14b2a1668b3569dafb0478b2636b"
     },
     "globals": {
       "Package": "globals",
       "Version": "0.18.0",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "globals",
+      "RemoteRef": "globals",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "0.18.0",
       "Requirements": [
         "R",
         "codetools"
@@ -651,38 +1017,102 @@
       "Version": "1.8.0",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "glue",
+      "RemoteRef": "glue",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "1.8.0",
       "Requirements": [
         "R",
         "methods"
       ],
       "Hash": "5899f1eaa825580172bb56c08266f37c"
     },
+    "googledrive": {
+      "Package": "googledrive",
+      "Version": "2.1.2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "googledrive",
+      "RemoteRef": "googledrive",
+      "RemoteRepos": "https://cloud.r-project.org",
+      "RemoteSha": "2.1.2",
+      "Requirements": [
+        "R",
+        "cli",
+        "gargle",
+        "glue",
+        "httr",
+        "jsonlite",
+        "lifecycle",
+        "magrittr",
+        "pillar",
+        "purrr",
+        "rlang",
+        "tibble",
+        "utils",
+        "uuid",
+        "vctrs",
+        "withr"
+      ],
+      "Hash": "292be194aa519482c4b83f488a818ba3"
+    },
+    "googlesheets4": {
+      "Package": "googlesheets4",
+      "Version": "1.1.2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "googlesheets4",
+      "RemoteRef": "googlesheets4",
+      "RemoteRepos": "https://cloud.r-project.org",
+      "RemoteSha": "1.1.2",
+      "Requirements": [
+        "R",
+        "cellranger",
+        "cli",
+        "curl",
+        "gargle",
+        "glue",
+        "googledrive",
+        "httr",
+        "ids",
+        "lifecycle",
+        "magrittr",
+        "methods",
+        "purrr",
+        "rematch2",
+        "rlang",
+        "tibble",
+        "utils",
+        "vctrs",
+        "withr"
+      ],
+      "Hash": "376adbf359b416dbb30a76a2d2051ed5"
+    },
     "gower": {
       "Package": "gower",
       "Version": "1.0.2",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "gower",
+      "RemoteRef": "gower",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "1.0.2",
       "Hash": "7a37062c38f12229b5191cf5f593f91e"
-    },
-    "gridExtra": {
-      "Package": "gridExtra",
-      "Version": "2.3",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "grDevices",
-        "graphics",
-        "grid",
-        "gtable",
-        "utils"
-      ],
-      "Hash": "7d7f283939f563670a697165b2cf5560"
     },
     "gtable": {
       "Package": "gtable",
       "Version": "0.3.6",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "gtable",
+      "RemoteRef": "gtable",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "0.3.6",
       "Requirements": [
         "R",
         "cli",
@@ -699,6 +1129,11 @@
       "Version": "1.4.2",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "hardhat",
+      "RemoteRef": "hardhat",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "1.4.2",
       "Requirements": [
         "R",
         "cli",
@@ -710,38 +1145,57 @@
       ],
       "Hash": "3925b503926399e7f9ae563faf11da4d"
     },
+    "haven": {
+      "Package": "haven",
+      "Version": "2.5.5",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "haven",
+      "RemoteRef": "haven",
+      "RemoteRepos": "https://cloud.r-project.org",
+      "RemoteSha": "2.5.5",
+      "Requirements": [
+        "R",
+        "cli",
+        "cpp11",
+        "forcats",
+        "hms",
+        "lifecycle",
+        "methods",
+        "readr",
+        "rlang",
+        "tibble",
+        "tidyselect",
+        "vctrs"
+      ],
+      "Hash": "437bc7804f8ffdfcfed38d0aead6a9d7"
+    },
     "here": {
       "Package": "here",
       "Version": "1.0.2",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "RSPM",
+      "RemoteType": "standard",
+      "RemotePkgRef": "here",
+      "RemoteRef": "here",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "1.0.2",
       "Requirements": [
         "rprojroot"
       ],
       "Hash": "e5114f2abe04168238181913a8572358"
-    },
-    "hexbin": {
-      "Package": "hexbin",
-      "Version": "1.28.5",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "R",
-        "grDevices",
-        "graphics",
-        "grid",
-        "lattice",
-        "methods",
-        "stats",
-        "utils"
-      ],
-      "Hash": "10a44851f04ff2d0e26b1c84c38d914a"
     },
     "highr": {
       "Package": "highr",
       "Version": "0.11",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "highr",
+      "RemoteRef": "highr",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "0.11",
       "Requirements": [
         "R",
         "xfun"
@@ -753,6 +1207,11 @@
       "Version": "1.1.4",
       "Source": "Repository",
       "Repository": "RSPM",
+      "RemoteType": "standard",
+      "RemotePkgRef": "hms",
+      "RemoteRef": "hms",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "1.1.4",
       "Requirements": [
         "cli",
         "lifecycle",
@@ -765,9 +1224,14 @@
     },
     "htmltools": {
       "Package": "htmltools",
-      "Version": "0.5.8.1",
+      "Version": "0.5.9",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "htmltools",
+      "RemoteRef": "htmltools",
+      "RemoteRepos": "https://cloud.r-project.org",
+      "RemoteSha": "0.5.9",
       "Requirements": [
         "R",
         "base64enc",
@@ -777,13 +1241,18 @@
         "rlang",
         "utils"
       ],
-      "Hash": "81d371a9cc60640e74e4ab6ac46dcedc"
+      "Hash": "102298e238c14eb830cc4b5edd23c3e8"
     },
     "httr": {
       "Package": "httr",
       "Version": "1.4.7",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "httr",
+      "RemoteRef": "httr",
+      "RemoteRepos": "https://cloud.r-project.org",
+      "RemoteSha": "1.4.7",
       "Requirements": [
         "R",
         "R6",
@@ -794,11 +1263,32 @@
       ],
       "Hash": "ac107251d9d9fd72f0ca8049988f1d7f"
     },
+    "ids": {
+      "Package": "ids",
+      "Version": "1.0.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "ids",
+      "RemoteRef": "ids",
+      "RemoteRepos": "https://cloud.r-project.org",
+      "RemoteSha": "1.0.1",
+      "Requirements": [
+        "openssl",
+        "uuid"
+      ],
+      "Hash": "99df65cfef20e525ed38c3d2577f7190"
+    },
     "ipred": {
       "Package": "ipred",
       "Version": "0.9-15",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "ipred",
+      "RemoteRef": "ipred",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "0.9-15",
       "Requirements": [
         "MASS",
         "R",
@@ -812,20 +1302,33 @@
     },
     "isoband": {
       "Package": "isoband",
-      "Version": "0.2.7",
+      "Version": "0.3.0",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "isoband",
+      "RemoteRef": "isoband",
+      "RemoteRepos": "https://cloud.r-project.org",
+      "RemoteSha": "0.3.0",
       "Requirements": [
+        "cli",
+        "cpp11",
         "grid",
+        "rlang",
         "utils"
       ],
-      "Hash": "0080607b4a1a7b28979aecef976d8bc2"
+      "Hash": "0f9a864bbd7ce0232ad05cb76249cc1a"
     },
     "iterators": {
       "Package": "iterators",
       "Version": "1.0.14",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "iterators",
+      "RemoteRef": "iterators",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "1.0.14",
       "Requirements": [
         "R",
         "utils"
@@ -837,6 +1340,11 @@
       "Version": "0.1.4",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "jquerylib",
+      "RemoteRef": "jquerylib",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "0.1.4",
       "Requirements": [
         "htmltools"
       ],
@@ -847,6 +1355,11 @@
       "Version": "2.0.0",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "jsonlite",
+      "RemoteRef": "jsonlite",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "2.0.0",
       "Requirements": [
         "methods"
       ],
@@ -857,6 +1370,11 @@
       "Version": "1.17.0",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "khroma",
+      "RemoteRef": "khroma",
+      "RemoteRepos": "https://cloud.r-project.org",
+      "RemoteSha": "1.17.0",
       "Requirements": [
         "R",
         "grDevices",
@@ -872,6 +1390,11 @@
       "Version": "1.50",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "knitr",
+      "RemoteRef": "knitr",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "1.50",
       "Requirements": [
         "R",
         "evaluate",
@@ -888,6 +1411,11 @@
       "Version": "0.4.3",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "labeling",
+      "RemoteRef": "labeling",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "0.4.3",
       "Requirements": [
         "graphics",
         "stats"
@@ -896,7 +1424,7 @@
     },
     "lattice": {
       "Package": "lattice",
-      "Version": "0.22-7",
+      "Version": "0.22-6",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -907,13 +1435,18 @@
         "stats",
         "utils"
       ],
-      "Hash": "934f30aea6442867f57a610034ab06d3"
+      "Hash": "cc5ac1ba4c238c7ca9fa6a87ca11a7e2"
     },
     "lava": {
       "Package": "lava",
       "Version": "1.8.2",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "RSPM",
+      "RemoteType": "standard",
+      "RemotePkgRef": "lava",
+      "RemoteRef": "lava",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "1.8.2",
       "Requirements": [
         "R",
         "SQUAREM",
@@ -935,6 +1468,11 @@
       "Version": "1.0.4",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "lifecycle",
+      "RemoteRef": "lifecycle",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "1.0.4",
       "Requirements": [
         "R",
         "cli",
@@ -947,7 +1485,12 @@
       "Package": "listenv",
       "Version": "0.10.0",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "RSPM",
+      "RemoteType": "standard",
+      "RemotePkgRef": "listenv",
+      "RemoteRef": "listenv",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "0.10.0",
       "Requirements": [
         "R"
       ],
@@ -958,6 +1501,11 @@
       "Version": "1.9.4",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "lubridate",
+      "RemoteRef": "lubridate",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "1.9.4",
       "Requirements": [
         "R",
         "generics",
@@ -971,6 +1519,11 @@
       "Version": "2.0.4",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "magrittr",
+      "RemoteRef": "magrittr",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "2.0.4",
       "Requirements": [
         "R"
       ],
@@ -981,6 +1534,11 @@
       "Version": "2.0.1",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "memoise",
+      "RemoteRef": "memoise",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "2.0.1",
       "Requirements": [
         "cachem",
         "rlang"
@@ -992,34 +1550,38 @@
       "Version": "0.13",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "mime",
+      "RemoteRef": "mime",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "0.13",
       "Requirements": [
         "tools"
       ],
       "Hash": "0ec19f34c72fab674d8f2b4b1c6410e1"
     },
-    "ncdf4": {
-      "Package": "ncdf4",
-      "Version": "1.24",
+    "modelr": {
+      "Package": "modelr",
+      "Version": "0.1.11",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "2e2f7c6faeb943039f9f5793eab83482"
-    },
-    "ncmeta": {
-      "Package": "ncmeta",
-      "Version": "0.4.0",
-      "Source": "Repository",
-      "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "modelr",
+      "RemoteRef": "modelr",
+      "RemoteRepos": "https://cloud.r-project.org",
+      "RemoteSha": "0.1.11",
       "Requirements": [
-        "CFtime",
         "R",
-        "RNetCDF",
-        "dplyr",
+        "broom",
+        "magrittr",
+        "purrr",
         "rlang",
-        "stats",
         "tibble",
-        "tidyr"
+        "tidyr",
+        "tidyselect",
+        "vctrs"
       ],
-      "Hash": "669c7f25266909a1de505e43c8967870"
+      "Hash": "4f50122dc256b1b6996a4703fecea821"
     },
     "nlme": {
       "Package": "nlme",
@@ -1052,6 +1614,11 @@
       "Version": "2016.8-1.1",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "numDeriv",
+      "RemoteRef": "numDeriv",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "2016.8-1.1",
       "Requirements": [
         "R"
       ],
@@ -1062,6 +1629,11 @@
       "Version": "2.3.4",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "openssl",
+      "RemoteRef": "openssl",
+      "RemoteRepos": "https://cloud.r-project.org",
+      "RemoteSha": "2.3.4",
       "Requirements": [
         "askpass"
       ],
@@ -1072,6 +1644,11 @@
       "Version": "1.19.0.1",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "pROC",
+      "RemoteRef": "pROC",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "1.19.0.1",
       "Requirements": [
         "R",
         "Rcpp",
@@ -1084,6 +1661,11 @@
       "Version": "1.45.1",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "parallelly",
+      "RemoteRef": "parallelly",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "1.45.1",
       "Requirements": [
         "parallel",
         "tools",
@@ -1095,7 +1677,12 @@
       "Package": "pillar",
       "Version": "1.11.1",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "RSPM",
+      "RemoteType": "standard",
+      "RemotePkgRef": "pillar",
+      "RemoteRef": "pillar",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "1.11.1",
       "Requirements": [
         "cli",
         "glue",
@@ -1112,6 +1699,11 @@
       "Version": "2.0.3",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "pkgconfig",
+      "RemoteRef": "pkgconfig",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "2.0.3",
       "Requirements": [
         "utils"
       ],
@@ -1122,6 +1714,11 @@
       "Version": "1.8.9",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "plyr",
+      "RemoteRef": "plyr",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "1.8.9",
       "Requirements": [
         "R",
         "Rcpp"
@@ -1133,16 +1730,44 @@
       "Version": "1.2.0",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "prettyunits",
+      "RemoteRef": "prettyunits",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "1.2.0",
       "Requirements": [
         "R"
       ],
       "Hash": "6b01fc98b1e86c4f705ce9dcfd2f57c7"
+    },
+    "processx": {
+      "Package": "processx",
+      "Version": "3.8.6",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "processx",
+      "RemoteRef": "processx",
+      "RemoteRepos": "https://cloud.r-project.org",
+      "RemoteSha": "3.8.6",
+      "Requirements": [
+        "R",
+        "R6",
+        "ps",
+        "utils"
+      ],
+      "Hash": "720161b280b0a35f4d1490ead2fe81d0"
     },
     "prodlim": {
       "Package": "prodlim",
       "Version": "2025.04.28",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "prodlim",
+      "RemoteRef": "prodlim",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "2025.04.28",
       "Requirements": [
         "KernSmooth",
         "R",
@@ -1164,6 +1789,11 @@
       "Version": "1.2.3",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "progress",
+      "RemoteRef": "progress",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "1.2.3",
       "Requirements": [
         "R",
         "R6",
@@ -1175,21 +1805,31 @@
     },
     "progressr": {
       "Package": "progressr",
-      "Version": "0.17.0",
+      "Version": "0.18.0",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "RSPM",
+      "RemoteType": "standard",
+      "RemotePkgRef": "progressr",
+      "RemoteRef": "progressr",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "0.18.0",
       "Requirements": [
         "R",
         "digest",
         "utils"
       ],
-      "Hash": "e631739215def11dadebd1f68e6ca585"
+      "Hash": "ef4b2bde05f5ad616f8084141c682fe6"
     },
     "proxy": {
       "Package": "proxy",
       "Version": "0.4-27",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "proxy",
+      "RemoteRef": "proxy",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "0.4-27",
       "Requirements": [
         "R",
         "stats",
@@ -1197,11 +1837,32 @@
       ],
       "Hash": "e0ef355c12942cf7a6b91a6cfaea8b3e"
     },
-    "purrr": {
-      "Package": "purrr",
-      "Version": "1.1.0",
+    "ps": {
+      "Package": "ps",
+      "Version": "1.9.1",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "ps",
+      "RemoteRef": "ps",
+      "RemoteRepos": "https://cloud.r-project.org",
+      "RemoteSha": "1.9.1",
+      "Requirements": [
+        "R",
+        "utils"
+      ],
+      "Hash": "093688087b0bacce6ba2f661f36328e2"
+    },
+    "purrr": {
+      "Package": "purrr",
+      "Version": "1.2.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "purrr",
+      "RemoteRef": "purrr",
+      "RemoteRepos": "https://cloud.r-project.org",
+      "RemoteSha": "1.2.0",
       "Requirements": [
         "R",
         "cli",
@@ -1210,13 +1871,34 @@
         "rlang",
         "vctrs"
       ],
-      "Hash": "9240cfb47489133f809918a0d3cc60cb"
+      "Hash": "5150f0e38b8150315ac853acade2740e"
+    },
+    "ragg": {
+      "Package": "ragg",
+      "Version": "1.5.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "ragg",
+      "RemoteRef": "ragg",
+      "RemoteRepos": "https://cloud.r-project.org",
+      "RemoteSha": "1.5.0",
+      "Requirements": [
+        "systemfonts",
+        "textshaping"
+      ],
+      "Hash": "cdb40b21711a8870f305b24226698f9f"
     },
     "ranger": {
       "Package": "ranger",
       "Version": "0.17.0",
       "Source": "Repository",
-      "Repository": "RSPM",
+      "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "ranger",
+      "RemoteRef": "ranger",
+      "RemoteRepos": "https://cloud.r-project.org",
+      "RemoteSha": "0.17.0",
       "Requirements": [
         "Matrix",
         "R",
@@ -1230,6 +1912,11 @@
       "Version": "0.3.3",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "rappdirs",
+      "RemoteRef": "rappdirs",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "0.3.3",
       "Requirements": [
         "R"
       ],
@@ -1237,9 +1924,14 @@
     },
     "readr": {
       "Package": "readr",
-      "Version": "2.1.5",
+      "Version": "2.1.6",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "readr",
+      "RemoteRef": "readr",
+      "RemoteRepos": "https://cloud.r-project.org",
+      "RemoteSha": "2.1.6",
       "Requirements": [
         "R",
         "R6",
@@ -1256,13 +1948,38 @@
         "utils",
         "vroom"
       ],
-      "Hash": "9de96463d2117f6ac49980577939dfb3"
+      "Hash": "141ebcec1bf55707751c7956a34d93db"
+    },
+    "readxl": {
+      "Package": "readxl",
+      "Version": "1.4.5",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "readxl",
+      "RemoteRef": "readxl",
+      "RemoteRepos": "https://cloud.r-project.org",
+      "RemoteSha": "1.4.5",
+      "Requirements": [
+        "R",
+        "cellranger",
+        "cpp11",
+        "progress",
+        "tibble",
+        "utils"
+      ],
+      "Hash": "18948de59f05d38a44d3e5065a76b4b6"
     },
     "recipes": {
       "Package": "recipes",
       "Version": "1.3.1",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "recipes",
+      "RemoteRef": "recipes",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "1.3.1",
       "Requirements": [
         "Matrix",
         "R",
@@ -1291,6 +2008,33 @@
       ],
       "Hash": "fa64dfb9b76177ecc7e2a52213c2669b"
     },
+    "rematch": {
+      "Package": "rematch",
+      "Version": "2.0.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "rematch",
+      "RemoteRef": "rematch",
+      "RemoteRepos": "https://cloud.r-project.org",
+      "RemoteSha": "2.0.0",
+      "Hash": "cbff1b666c6fa6d21202f07e2318d4f1"
+    },
+    "rematch2": {
+      "Package": "rematch2",
+      "Version": "2.1.2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "rematch2",
+      "RemoteRef": "rematch2",
+      "RemoteRepos": "https://cloud.r-project.org",
+      "RemoteSha": "2.1.2",
+      "Requirements": [
+        "tibble"
+      ],
+      "Hash": "76c9e04c712a05848ae7a23d2f170a40"
+    },
     "renv": {
       "Package": "renv",
       "Version": "0.17.3",
@@ -1301,60 +2045,82 @@
       ],
       "Hash": "4543b8cd233ae25c6aba8548be9e747e"
     },
-    "reshape2": {
-      "Package": "reshape2",
-      "Version": "1.4.4",
+    "repr": {
+      "Package": "repr",
+      "Version": "1.1.7",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "repr",
+      "RemoteRef": "repr",
+      "RemoteRepos": "https://cloud.r-project.org",
+      "RemoteSha": "1.1.7",
+      "Requirements": [
+        "R",
+        "base64enc",
+        "grDevices",
+        "htmltools",
+        "jsonlite",
+        "pillar",
+        "utils"
+      ],
+      "Hash": "1393acc49816f4fe143d87fb33e75631"
+    },
+    "reprex": {
+      "Package": "reprex",
+      "Version": "2.1.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "reprex",
+      "RemoteRef": "reprex",
+      "RemoteRepos": "https://cloud.r-project.org",
+      "RemoteSha": "2.1.1",
+      "Requirements": [
+        "R",
+        "callr",
+        "cli",
+        "clipr",
+        "fs",
+        "glue",
+        "knitr",
+        "lifecycle",
+        "rlang",
+        "rmarkdown",
+        "rstudioapi",
+        "utils",
+        "withr"
+      ],
+      "Hash": "97b1d5361a24d9fb588db7afe3e5bcbf"
+    },
+    "reshape2": {
+      "Package": "reshape2",
+      "Version": "1.4.5",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "RemoteType": "standard",
+      "RemotePkgRef": "reshape2",
+      "RemoteRef": "reshape2",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "1.4.5",
       "Requirements": [
         "R",
         "Rcpp",
         "plyr",
         "stringr"
       ],
-      "Hash": "bb5996d0bd962d214a11140d77589917"
-    },
-    "rgeco": {
-      "Package": "rgeco",
-      "Version": "0.9",
-      "Source": "GitHub",
-      "Remotes": "stineb/FluxDataKit",
-      "RemoteType": "github",
-      "RemoteHost": "api.github.com",
-      "RemoteRepo": "rgeco",
-      "RemoteUsername": "geco-bern",
-      "RemoteRef": "HEAD",
-      "RemoteSha": "c2beff5702b4ba7aaef2bcdc46ee96375a3183ac",
-      "Requirements": [
-        "R",
-        "cowplot",
-        "dplyr",
-        "fs",
-        "ggplot2",
-        "ggthemes",
-        "grDevices",
-        "here",
-        "hexbin",
-        "khroma",
-        "lubridate",
-        "magrittr",
-        "methods",
-        "ncdf4",
-        "ncmeta",
-        "rnaturalearth",
-        "sf",
-        "stringr",
-        "terra",
-        "tidyr",
-        "viridis"
-      ],
-      "Hash": "462caa5b6e0c176720ec7a07049a696d"
+      "Hash": "2677962d949a7a879537a2364d56be84"
     },
     "rlang": {
       "Package": "rlang",
       "Version": "1.1.6",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "rlang",
+      "RemoteRef": "rlang",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "1.1.6",
       "Requirements": [
         "R",
         "utils"
@@ -1365,7 +2131,12 @@
       "Package": "rmarkdown",
       "Version": "2.30",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "RSPM",
+      "RemoteType": "standard",
+      "RemotePkgRef": "rmarkdown",
+      "RemoteRef": "rmarkdown",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "2.30",
       "Requirements": [
         "R",
         "bslib",
@@ -1389,6 +2160,11 @@
       "Version": "1.1.0",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "rnaturalearth",
+      "RemoteRef": "rnaturalearth",
+      "RemoteRepos": "https://cloud.r-project.org",
+      "RemoteSha": "1.1.0",
       "Requirements": [
         "R",
         "cli",
@@ -1417,17 +2193,63 @@
       "Package": "rprojroot",
       "Version": "2.1.1",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "RSPM",
+      "RemoteType": "standard",
+      "RemotePkgRef": "rprojroot",
+      "RemoteRef": "rprojroot",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "2.1.1",
       "Requirements": [
         "R"
       ],
       "Hash": "b2453de2d29aa646afe4781defdc7903"
     },
+    "rstudioapi": {
+      "Package": "rstudioapi",
+      "Version": "0.17.1",
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "RemoteType": "standard",
+      "RemotePkgRef": "rstudioapi",
+      "RemoteRef": "rstudioapi",
+      "RemoteRepos": "https://cloud.r-project.org",
+      "RemoteSha": "0.17.1",
+      "Hash": "5f90cd73946d706cfe26024294236113"
+    },
+    "rvest": {
+      "Package": "rvest",
+      "Version": "1.0.5",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "rvest",
+      "RemoteRef": "rvest",
+      "RemoteRepos": "https://cloud.r-project.org",
+      "RemoteSha": "1.0.5",
+      "Requirements": [
+        "R",
+        "cli",
+        "glue",
+        "httr",
+        "lifecycle",
+        "magrittr",
+        "rlang",
+        "selectr",
+        "tibble",
+        "xml2"
+      ],
+      "Hash": "2804ddcd7737082306c559d919886546"
+    },
     "s2": {
       "Package": "s2",
       "Version": "1.1.9",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "RSPM",
+      "RemoteType": "standard",
+      "RemotePkgRef": "s2",
+      "RemoteRef": "s2",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "1.1.9",
       "Requirements": [
         "R",
         "Rcpp",
@@ -1440,6 +2262,11 @@
       "Version": "0.4.10",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "sass",
+      "RemoteRef": "sass",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "0.4.10",
       "Requirements": [
         "R6",
         "fs",
@@ -1454,6 +2281,11 @@
       "Version": "1.4.0",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "scales",
+      "RemoteRef": "scales",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "1.4.0",
       "Requirements": [
         "R",
         "R6",
@@ -1468,11 +2300,34 @@
       ],
       "Hash": "c5bba8f0d1df8c4b9538a40570798d9b"
     },
-    "sf": {
-      "Package": "sf",
-      "Version": "1.0-21",
+    "selectr": {
+      "Package": "selectr",
+      "Version": "0.5-0",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "selectr",
+      "RemoteRef": "selectr",
+      "RemoteRepos": "https://cloud.r-project.org",
+      "RemoteSha": "0.5-0",
+      "Requirements": [
+        "R",
+        "R6",
+        "methods",
+        "stringr"
+      ],
+      "Hash": "f694bb910ab23f987267ddbeb9401881"
+    },
+    "sf": {
+      "Package": "sf",
+      "Version": "1.0-23",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "sf",
+      "RemoteRef": "sf",
+      "RemoteRepos": "https://cloud.r-project.org",
+      "RemoteSha": "1.0-23",
       "Requirements": [
         "DBI",
         "R",
@@ -1489,13 +2344,18 @@
         "units",
         "utils"
       ],
-      "Hash": "14a8dae2a678fa953907893a9df561c0"
+      "Hash": "ce0c8d7dc7715a383d874eb5be01edd5"
     },
     "shape": {
       "Package": "shape",
       "Version": "1.4.6.1",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "shape",
+      "RemoteRef": "shape",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "1.4.6.1",
       "Requirements": [
         "R",
         "grDevices",
@@ -1504,11 +2364,44 @@
       ],
       "Hash": "5c47e84dc0a3ca761ae1d307889e796d"
     },
+    "skimr": {
+      "Package": "skimr",
+      "Version": "2.2.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "skimr",
+      "RemoteRef": "skimr",
+      "RemoteRepos": "https://cloud.r-project.org",
+      "RemoteSha": "2.2.1",
+      "Requirements": [
+        "R",
+        "cli",
+        "dplyr",
+        "knitr",
+        "pillar",
+        "purrr",
+        "repr",
+        "rlang",
+        "stats",
+        "stringr",
+        "tibble",
+        "tidyr",
+        "tidyselect",
+        "vctrs"
+      ],
+      "Hash": "ed4de9d8da04be27d3cd3a250f946fe5"
+    },
     "sparsevctrs": {
       "Package": "sparsevctrs",
       "Version": "0.3.4",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "sparsevctrs",
+      "RemoteRef": "sparsevctrs",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "0.3.4",
       "Requirements": [
         "R",
         "cli",
@@ -1522,6 +2415,11 @@
       "Version": "1.8.7",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "stringi",
+      "RemoteRef": "stringi",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "1.8.7",
       "Requirements": [
         "R",
         "stats",
@@ -1532,9 +2430,14 @@
     },
     "stringr": {
       "Package": "stringr",
-      "Version": "1.5.2",
+      "Version": "1.6.0",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "stringr",
+      "RemoteRef": "stringr",
+      "RemoteRepos": "https://cloud.r-project.org",
+      "RemoteSha": "1.6.0",
       "Requirements": [
         "R",
         "cli",
@@ -1545,7 +2448,7 @@
         "stringi",
         "vctrs"
       ],
-      "Hash": "8f28c568a22dde52d2c8b11958776ac2"
+      "Hash": "d47392652eedc68bf916657347ff2526"
     },
     "survival": {
       "Package": "survival",
@@ -1568,25 +2471,83 @@
       "Version": "3.4.3",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "sys",
+      "RemoteRef": "sys",
+      "RemoteRepos": "https://cloud.r-project.org",
+      "RemoteSha": "3.4.3",
       "Hash": "de342ebfebdbf40477d0758d05426646"
+    },
+    "systemfonts": {
+      "Package": "systemfonts",
+      "Version": "1.3.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "systemfonts",
+      "RemoteRef": "systemfonts",
+      "RemoteRepos": "https://cloud.r-project.org",
+      "RemoteSha": "1.3.1",
+      "Requirements": [
+        "R",
+        "base64enc",
+        "cpp11",
+        "grid",
+        "jsonlite",
+        "lifecycle",
+        "tools",
+        "utils"
+      ],
+      "Hash": "4fae513a3bb1a155943d1e9d1ae467ec"
     },
     "terra": {
       "Package": "terra",
-      "Version": "1.8-70",
+      "Version": "1.8-86",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "terra",
+      "RemoteRef": "terra",
+      "RemoteRepos": "https://cloud.r-project.org",
+      "RemoteSha": "1.8-86",
       "Requirements": [
         "R",
         "Rcpp",
         "methods"
       ],
-      "Hash": "366d90437eed64db1ada9722388d8a58"
+      "Hash": "1cc3e57b7ea625c7ef5c814f75bd087a"
+    },
+    "textshaping": {
+      "Package": "textshaping",
+      "Version": "1.0.4",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "textshaping",
+      "RemoteRef": "textshaping",
+      "RemoteRepos": "https://cloud.r-project.org",
+      "RemoteSha": "1.0.4",
+      "Requirements": [
+        "R",
+        "cpp11",
+        "lifecycle",
+        "stats",
+        "stringi",
+        "systemfonts",
+        "utils"
+      ],
+      "Hash": "477d70e23914730aa7f5c5fd351f4721"
     },
     "themis": {
       "Package": "themis",
       "Version": "1.0.3",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "themis",
+      "RemoteRef": "themis",
+      "RemoteRepos": "https://cloud.r-project.org",
+      "RemoteSha": "1.0.3",
       "Requirements": [
         "R",
         "RANN",
@@ -1612,6 +2573,11 @@
       "Version": "3.3.0",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "tibble",
+      "RemoteRef": "tibble",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "3.3.0",
       "Requirements": [
         "R",
         "cli",
@@ -1631,6 +2597,11 @@
       "Version": "1.2.1",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "tictoc",
+      "RemoteRef": "tictoc",
+      "RemoteRepos": "https://cloud.r-project.org",
+      "RemoteSha": "1.2.1",
       "Requirements": [
         "R",
         "methods"
@@ -1642,6 +2613,11 @@
       "Version": "1.3.1",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "tidyr",
+      "RemoteRef": "tidyr",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "1.3.1",
       "Requirements": [
         "R",
         "cli",
@@ -1665,6 +2641,11 @@
       "Version": "1.2.1",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "tidyselect",
+      "RemoteRef": "tidyselect",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "1.2.1",
       "Requirements": [
         "R",
         "cli",
@@ -1676,11 +2657,61 @@
       ],
       "Hash": "829f27b9c4919c16b593794a6344d6c0"
     },
+    "tidyverse": {
+      "Package": "tidyverse",
+      "Version": "2.0.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "tidyverse",
+      "RemoteRef": "tidyverse",
+      "RemoteRepos": "https://cloud.r-project.org",
+      "RemoteSha": "2.0.0",
+      "Requirements": [
+        "R",
+        "broom",
+        "cli",
+        "conflicted",
+        "dbplyr",
+        "dplyr",
+        "dtplyr",
+        "forcats",
+        "ggplot2",
+        "googledrive",
+        "googlesheets4",
+        "haven",
+        "hms",
+        "httr",
+        "jsonlite",
+        "lubridate",
+        "magrittr",
+        "modelr",
+        "pillar",
+        "purrr",
+        "ragg",
+        "readr",
+        "readxl",
+        "reprex",
+        "rlang",
+        "rstudioapi",
+        "rvest",
+        "stringr",
+        "tibble",
+        "tidyr",
+        "xml2"
+      ],
+      "Hash": "c328568cd14ea89a83bd4ca7f54ae07e"
+    },
     "timeDate": {
       "Package": "timeDate",
       "Version": "4051.111",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "RSPM",
+      "RemoteType": "standard",
+      "RemotePkgRef": "timeDate",
+      "RemoteRef": "timeDate",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "4051.111",
       "Requirements": [
         "R",
         "graphics",
@@ -1695,6 +2726,11 @@
       "Version": "0.3.0",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "timechange",
+      "RemoteRef": "timechange",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "0.3.0",
       "Requirements": [
         "R",
         "cpp11"
@@ -1703,19 +2739,29 @@
     },
     "tinytex": {
       "Package": "tinytex",
-      "Version": "0.57",
+      "Version": "0.58",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "tinytex",
+      "RemoteRef": "tinytex",
+      "RemoteRepos": "https://cloud.r-project.org",
+      "RemoteSha": "0.58",
       "Requirements": [
         "xfun"
       ],
-      "Hash": "02d65e0c0415bf36a7ddc0d2ba50a840"
+      "Hash": "03af3ad04817f3019de8ee5c73dab807"
     },
     "tzdb": {
       "Package": "tzdb",
       "Version": "0.5.0",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "tzdb",
+      "RemoteRef": "tzdb",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "0.5.0",
       "Requirements": [
         "R",
         "cpp11"
@@ -1726,7 +2772,12 @@
       "Package": "units",
       "Version": "1.0-0",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "RSPM",
+      "RemoteType": "standard",
+      "RemotePkgRef": "units",
+      "RemoteRef": "units",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "1.0-0",
       "Requirements": [
         "R",
         "Rcpp"
@@ -1738,16 +2789,41 @@
       "Version": "1.2.6",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "utf8",
+      "RemoteRef": "utf8",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "1.2.6",
       "Requirements": [
         "R"
       ],
       "Hash": "d526d558be176e9ceb68c3d1e83479b7"
+    },
+    "uuid": {
+      "Package": "uuid",
+      "Version": "1.2-1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "uuid",
+      "RemoteRef": "uuid",
+      "RemoteRepos": "https://cloud.r-project.org",
+      "RemoteSha": "1.2-1",
+      "Requirements": [
+        "R"
+      ],
+      "Hash": "34e965e62a41fcafb1ca60e9b142085b"
     },
     "vctrs": {
       "Package": "vctrs",
       "Version": "0.6.5",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "vctrs",
+      "RemoteRef": "vctrs",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "0.6.5",
       "Requirements": [
         "R",
         "cli",
@@ -1762,6 +2838,11 @@
       "Version": "0.4.2",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "vip",
+      "RemoteRef": "vip",
+      "RemoteRepos": "https://cloud.r-project.org",
+      "RemoteSha": "0.4.2",
       "Requirements": [
         "R",
         "foreach",
@@ -1773,24 +2854,16 @@
       ],
       "Hash": "c657fbdf3e9b5f2c696e1cda4d96e72e"
     },
-    "viridis": {
-      "Package": "viridis",
-      "Version": "0.6.5",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Requirements": [
-        "R",
-        "ggplot2",
-        "gridExtra",
-        "viridisLite"
-      ],
-      "Hash": "acd96d9fa70adeea4a5a1150609b9745"
-    },
     "viridisLite": {
       "Package": "viridisLite",
       "Version": "0.4.2",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "viridisLite",
+      "RemoteRef": "viridisLite",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "0.4.2",
       "Requirements": [
         "R"
       ],
@@ -1800,7 +2873,12 @@
       "Package": "visdat",
       "Version": "0.6.0",
       "Source": "Repository",
-      "Repository": "RSPM",
+      "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "visdat",
+      "RemoteRef": "visdat",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "0.6.0",
       "Requirements": [
         "R",
         "cli",
@@ -1820,9 +2898,14 @@
     },
     "vroom": {
       "Package": "vroom",
-      "Version": "1.6.6",
+      "Version": "1.6.7",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "vroom",
+      "RemoteRef": "vroom",
+      "RemoteRepos": "https://cloud.r-project.org",
+      "RemoteSha": "1.6.7",
       "Requirements": [
         "R",
         "bit64",
@@ -1842,13 +2925,18 @@
         "vctrs",
         "withr"
       ],
-      "Hash": "a9d1c6bf67f15a0d07be840caeaab49a"
+      "Hash": "28a6b7464407ac68327ec02445e7b0fd"
     },
     "withr": {
       "Package": "withr",
       "Version": "3.0.2",
       "Source": "Repository",
       "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "withr",
+      "RemoteRef": "withr",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "3.0.2",
       "Requirements": [
         "R",
         "grDevices",
@@ -1860,7 +2948,12 @@
       "Package": "wk",
       "Version": "0.9.4",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "RSPM",
+      "RemoteType": "standard",
+      "RemotePkgRef": "wk",
+      "RemoteRef": "wk",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "0.9.4",
       "Requirements": [
         "R"
       ],
@@ -1871,6 +2964,11 @@
       "Version": "0.54",
       "Source": "Repository",
       "Repository": "RSPM",
+      "RemoteType": "standard",
+      "RemotePkgRef": "xfun",
+      "RemoteRef": "xfun",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "0.54",
       "Requirements": [
         "R",
         "grDevices",
@@ -1879,18 +2977,46 @@
       ],
       "Hash": "d23c8a31e000d9865a8a6572f61da9ee"
     },
-    "yaml": {
-      "Package": "yaml",
-      "Version": "2.3.10",
+    "xml2": {
+      "Package": "xml2",
+      "Version": "1.5.1",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "51dab85c6c98e50a18d7551e9d49f76c"
+      "RemoteType": "standard",
+      "RemotePkgRef": "xml2",
+      "RemoteRef": "xml2",
+      "RemoteRepos": "https://cloud.r-project.org",
+      "RemoteSha": "1.5.1",
+      "Requirements": [
+        "R",
+        "cli",
+        "methods",
+        "rlang"
+      ],
+      "Hash": "df249a568f7fbfa996016695d1da7ea1"
+    },
+    "yaml": {
+      "Package": "yaml",
+      "Version": "2.3.11",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "RemoteType": "standard",
+      "RemotePkgRef": "yaml",
+      "RemoteRef": "yaml",
+      "RemoteRepos": "https://cloud.r-project.org",
+      "RemoteSha": "2.3.11",
+      "Hash": "fd01df43bb8d6c9e0c8968440bb46d34"
     },
     "yardstick": {
       "Package": "yardstick",
       "Version": "1.3.2",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "RSPM",
+      "RemoteType": "standard",
+      "RemotePkgRef": "yardstick",
+      "RemoteRef": "yardstick",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteSha": "1.3.2",
       "Requirements": [
         "R",
         "cli",
