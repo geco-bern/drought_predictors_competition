@@ -133,7 +133,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Introduction</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -145,24 +145,22 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item sidebar-item-section">
-      <span class="sidebar-item-text sidebar-link text-start">
- <span class="menu-text">Introduction</span></span>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <span class="sidebar-item-text sidebar-link text-start">
- <span class="menu-text">Worked Examples</span></span>
-  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+  </div>
+</li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./drought_prediction.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Drought prediction</span></span></a>
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Drought prediction</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./exercises.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Exercise</span></span></a>
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Exercise</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -173,13 +171,13 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
  <span class="menu-text">Appendices</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./appendix_setup.html" class="sidebar-item-text sidebar-link">
@@ -210,10 +208,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><span class="header-section-number">1</span> Introduction</a>
-  <ul class="collapse">
-  <li><a href="#formal-course-work" id="toc-formal-course-work" class="nav-link" data-scroll-target="#formal-course-work"><span class="header-section-number">1.1</span> Formal course work</a></li>
-  </ul></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><span class="header-section-number">1</span> Introduction</a></li>
   </ul>
 </nav>
     </div>
@@ -253,21 +248,13 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="introduction" class="level1" data-number="1">
 <h1 data-number="1"><span class="header-section-number">1</span> Introduction</h1>
-<p>TODO: This book serves as an example of a machine learning (ML) based workflow to use earth observation predictors to quantify vegetation stress.</p>
-<p>TODO: it is an exercise in the framework for AGDS2 (link)</p>
-<p>TODO: vegetation stress (expressed as fLUE on eddy-covariance sites).</p>
-<p>TODO …</p>
+<p>This book serves as an example of a machine learning (ML) based workflow to use earth observation predictors to quantify vegetation stress.</p>
+<p>It serves mainly as an exercise in the framework for <a href="https://geco-bern.github.io/agds2_course/">AGDS2</a>.</p>
+<p>In the example we use the fractional Light Use Efficiency (fLUE) as a proxy for vegetation stress. It describes reductions in the light use efficiency of plants. The fLUE data were derived from measurements from eddy covariance sites from the Fluxnet network.</p>
+<p>Our goal is to build a model that predicts the fractional Light Use Efficiency (fLUE) using predictors that are widely available through satellite remote sensing or climate reanalysis (ERA5Land) data sets.</p>
 <p>This book <strong>requires prior knowledge</strong> of programming in <strong>R</strong>, <strong>git</strong> and cloud based collaborative tools such as <strong>Github</strong>. The target group are students of the course Applied Geodata Science II (AGDS II) at the University of Bern, Switzerland. The necessary prior knowledge covered by the courses AGDS I and II. Many of these concepts are described in the accompanying, free online book <a href="https://geco-bern.github.io/agds_book/">AGDS</a>.</p>
-<section id="formal-course-work" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="formal-course-work"><span class="header-section-number">1.1</span> Formal course work</h2>
-<p>TODO: RMD and HTML</p>
-<p>TODO: Pull request to geco-bern/agds2_course/</p>
-<p>When reading this book as formal course work the requested format for handing in the exercises as listed in <a href="exercises.html" class="quarto-xref"><span>Chapter 2</span></a> is a single R markdown file (see REF), including its rendered html file.</p>
-<p>I will grade on the implementation of the code, as well as its critical assessment, and or trouble shooting. If you were stuck, document how you got unstuck in these assignments. If you are still stuck, list what efforts you made to get unstuck (and what failed results they yielded and how this informed your further reasoning).</p>
-<p>Document problem solving extensively in between code blocks. Mention (cite) resources you consulted, packages used, etc. You will have to find the original source if you consult external resources, ChatGPT (or similar large language model chat services) are <strong>not</strong> a valid reference in and on itself.</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -837,7 +824,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
   <div class="nav-page nav-page-next">
       <a href="./drought_prediction.html" class="pagination-link" aria-label="Drought prediction">
-        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Drought prediction</span></span> <i class="bi bi-arrow-right-short"></i>
+        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Drought prediction</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

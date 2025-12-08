@@ -117,7 +117,7 @@ div.csl-indent {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
 <span class="menu-text">Home</span></a>
   </li>  
 </ul>
@@ -162,24 +162,22 @@ div.csl-indent {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item sidebar-item-section">
-      <span class="sidebar-item-text sidebar-link text-start">
- <span class="menu-text">Introduction</span></span>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <span class="sidebar-item-text sidebar-link text-start">
- <span class="menu-text">Worked Examples</span></span>
-  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+  </div>
+</li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./drought_prediction.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Drought prediction</span></span></a>
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Drought prediction</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./exercises.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Exercise</span></span></a>
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Exercise</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -190,13 +188,13 @@ div.csl-indent {
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
  <span class="menu-text">Appendices</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./appendix_setup.html" class="sidebar-item-text sidebar-link">
@@ -247,62 +245,8 @@ div.csl-indent {
 </header>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
-<div id="ref-boehmke_hands-machine_2020" class="csl-entry" role="listitem">
-Boehmke, Brad, and Brandon M Greenwell. 2020. <em>Hands-<span>On</span>
-<span>Machine</span> <span>Learning</span> with <span>R</span></em>.
-Boca Raton, US: CRC Press. <a href="https://www.routledge.com/Hands-On-Machine-Learning-with-R/Boehmke-Greenwell/p/book/9781138495685">https://www.routledge.com/Hands-On-Machine-Learning-with-R/Boehmke-Greenwell/p/book/9781138495685</a>.
-</div>
-<div id="ref-dandrimont_harmonised_2020" class="csl-entry" role="listitem">
-d’Andrimont, Raphaël, Momchil Yordanov, Laura Martinez-Sanchez, Beatrice
-Eiselt, Alessandra Palmieri, Paolo Dominici, Javier Gallego, et al.
-2020. <span>“Harmonised <span>LUCAS</span> in-Situ Land Cover and Use
-Database for Field Surveys from 2006 to 2018 in the
-<span>European</span> <span>Union</span>.”</span> <em>Scientific
-Data</em> 7 (1): 352. <a href="https://doi.org/10.1038/s41597-020-00675-z">https://doi.org/10.1038/s41597-020-00675-z</a>.
-</div>
-<div id="ref-Friedl2002" class="csl-entry" role="listitem">
-Friedl, M A, D K McIver, J C F Hodges, X Y Zhang, D Muchoney, A H
-Strahler, C E Woodcock, et al. 2002. <span>“Global Land Cover Mapping
-from <span>MODIS</span>: Algorithms and Early Results.”</span>
-<em>Remote Sensing of Environment</em> 83 (1-2): 287–302. <a href="http://www.sciencedirect.com/science/article/B6V6V-46RDDFS-2/2/498151a48b317e5bb23b15033a694d4e">http://www.sciencedirect.com/science/article/B6V6V-46RDDFS-2/2/498151a48b317e5bb23b15033a694d4e</a>.
-</div>
-<div id="ref-Friedl2010" class="csl-entry" role="listitem">
-Friedl, M A, D Sulla-Menashe, B Tan, A Schneider, N Ramankutty, A
-Sibley, and X M Huang. 2010. <span>“<span>MODIS</span>
-<span>Collection</span> 5 Global Land Cover: <span>Algorithm</span>
-Refinements and Characterization of New Datasets.”</span> <em>Remote
-Sensing of Environment</em> 114 (1): 168–82. <a href="https://doi.org/10.1016/j.rse.2009.08.016">https://doi.org/10.1016/j.rse.2009.08.016</a>.
-</div>
-<div id="ref-fritz_global_2017" class="csl-entry" role="listitem">
-Fritz, Steffen, Linda See, Christoph Perger, Ian McCallum, Christian
-Schill, Dmitry Schepaschenko, Martina Duerauer, et al. 2017. <span>“A
-Global Dataset of Crowdsourced Land Cover and Land Use Reference
-Data.”</span> <em>Scientific Data</em> 4 (1): 170075. <a href="https://doi.org/10.1038/sdata.2017.75">https://doi.org/10.1038/sdata.2017.75</a>.
-</div>
-<div id="ref-Huete2002" class="csl-entry" role="listitem">
-Huete, A, K Didan, T Miura, E P Rodriguez, X Gao, and L G Ferreira.
-2002. <span>“Overview of the Radiometric and Biophysical Performance of
-the <span>MODIS</span> Vegetation Indices.”</span> <em>Remote Sensing of
-Environment</em> 83 (1-2): 195–213. <a href="citeulike-article-id:274524http://dx.doi.org/10.1016/S0034-4257(02)00096-2">citeulike-article-id:274524http://dx.doi.org/10.1016/S0034-4257(02)00096-2</a>.
-</div>
-<div id="ref-hufkens_bluegreen-labsappeears_2023" class="csl-entry" role="listitem">
-Hufkens, Koen. 2023. <span>“Bluegreen-Labs/Appeears: Appeears: An
-Interface to the <span>NASA</span> <span>AppEEARS</span>
-<span>API</span>.”</span> Zenodo. <a href="https://doi.org/10.5281/zenodo.7958270">https://doi.org/10.5281/zenodo.7958270</a>.
-</div>
-<div id="ref-kuhn_tidy_2022" class="csl-entry" role="listitem">
-Kuhn, Max, and Julia Silge. 2022. <em>Tidy <span>Modeling</span> with
-<span>R</span>: <span>A</span> <span>Framework</span> for
-<span>Modeling</span> in the <span>Tidyverse</span></em>. 1st edition.
-Beijing Boston Farnham Sebastopol Tokyo: O’Reilly Media.
-</div>
-<div id="ref-zeng_optical_2022" class="csl-entry" role="listitem">
-Zeng, Yelu, Dalei Hao, Alfredo Huete, Benjamin Dechant, Joe Berry, Jing
-M. Chen, Joanna Joiner, et al. 2022. <span>“Optical Vegetation Indices
-for Monitoring Terrestrial Ecosystems Globally.”</span> <em>Nature
-Reviews Earth &amp; Environment</em> 3 (7): 477–93. <a href="https://doi.org/10.1038/s43017-022-00298-5">https://doi.org/10.1038/s43017-022-00298-5</a>.
-</div>
+<div id="refs" role="list" style="display: none">
+
 </div>
 
 
@@ -872,7 +816,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
       <a href="./exercises.html" class="pagination-link" aria-label="Exercise">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Exercise</span></span>
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Exercise</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
