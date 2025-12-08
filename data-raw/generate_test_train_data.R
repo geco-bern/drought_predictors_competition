@@ -1,0 +1,53 @@
+library(dplyr)
+
+df <- read_rds("~/index_based_drought_monitoring-stineb/data/machine_learning_training_data.rds") # only on beni's machine ;-)
+
+set.seed(123)  # for reproducibility
+
+# withold sites
+df_sites_test <- df |> 
+  select(site,  vegtype) |> 
+  distinct() |> 
+  group_by(vegtype) |> 
+  sample_n(size = 1)
+
+# construct training set
+df_test <- df |> 
+  filter(site %in% df_sites_test$site)
+
+df_train <- df |> 
+  filter(!(site %in% df_sites_test$site)) |> 
+  
+  # create missingness in RS data
+  mutate(across(
+    .cols = c(starts_with("NR"), "LST"),
+    .fns = ~ {
+      n <- length(.x)
+      
+      # number of values to replace with NA
+      n_miss <- ceiling(0.25 * n)
+      
+      # randomly choose positions to set NA (independent per column)
+      miss_idx <- sample(seq_len(n), n_miss)
+      
+      .x[miss_idx] <- NA
+      .x
+    }
+  ))
+
+# visdat::vis_miss(
+#   df_train, 
+#   warn_large_data = FALSE
+# )
+
+write_csv(
+  df_train |> 
+    select(-cluster),
+  here("../data/competition2025_training_data.csv")
+  )
+
+write_csv(
+  df_test |> 
+    select(-flue, -is_flue_drought, -cluster),
+  here("../data/competition2025_testing_data.csv")
+)
