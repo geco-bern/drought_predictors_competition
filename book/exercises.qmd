@@ -1,120 +1,20 @@
 # Exercise {#sec-exercises}
 
-
 ::: callout-note
 ### TODO
 This document needs to be updated with the instructions.
 :::
 
-## Phenology trends and algorithms
+## Drought prediction model
 
-These exercises cover all materials up to REF. A proper understanding of these chapters is required to complete these exercises. Exercises are at times formulated in long form, not simple bullet points, in order to partially mimic formal descriptions as you would find in a methods section of an academic journal, or a reference manual.
+- How can you improve the model used to predict fLUE in REF? 
+- Implement at least one of method to improve the model used
 
-### Physical geography and phenology
-
-Interpret the results of REF and the fit model as shown in the collapsed note at the end of the section.
-
-- What does the intercept indicate?
-- How can you interpret the slope?
-- How to convert the established relationship with altitude, to one with temperature
-  - Without actually doing it, just describe how you would go about this and what you would expect? Can you approximate the effect of 1 degree of warming?
-
-### Temporal and spatial anomalies
-
-For a location near the Adirondacks in the North-Eastern United States (@fig-leaflet-adirondacks) gather phenology data on both the day of greenup and the day of maximum canopy development of a location centered on 43.5$^\circ$N and 74.5$^\circ$W. 
-Use a product that directly provides these quantities.
-Gather data for all pixels 100 km around this location for years 2001 to 2010. 
-Ensure you have the right region, e.g. by plotting it `terra::plot(your_raster)`.
-Similarly, download land cover data for the year 2010 for the same spatial extent, and only consider IGBP broadleaf and mixed forest classes in your analysis.
-
-For the years 2001 - 2009 calculate the long term mean (LTM) and standard deviation (SD) of the phenology metrics. Calculate location with an early greenup for 2010 (< LTM - 1 SD) and locations with late maturity (> LTM + 1 SD).
-
-Describe the observed patterns and speculate about the underlying reasons. In addition, download a digital elevation map for the United States (30s resolution), and compare differences in altitude (e.g. a boxplot) across locations where you do or do not see any patterns in phenology.
- 
-```{r echo=FALSE}
-#| label: fig-leaflet-adirondacks
-#| fig-cap: "The location of the Adirondack mountains in the North-Eastern United States"
-#| fig-align: "center"
-#| out-width: "100%"
-#| fig-width: 5
-#| fig-height: 3
-
-library(leaflet)
-leaflet() |>
-  setView(
-    lng = -74.5,
-    lat = 43.5,
-    zoom = 06
-    ) |>
-  addTiles() |>
-  addMarkers(
-    lng=-74.5,
-    lat=43.5,
-    popup="Adirondacks"
-    )
-```
-
-::: {.callout-note}
-## Note
-
-Use details in REF, REF and REF to answer these questions, by considering all data products and methods mentioned. Additional meta-data will need to be consulted online to provide context or data conversion instructions in some cases. Where necessary consult [the relevant scientific literature](https://scholar.google.com/).
-
-:::
-
-### Scaling the calculation of phenology metrics
-
-In this exercise you will be required to download external data manually. First you will have to sign up for a [NASA EarthData login](https://www.earthdata.nasa.gov/) to access the required data. The NASA EarthData login provides access to a wide range of data products.
-
-Once signed in, [download the data MCD13C1 product](https://lpdaac.usgs.gov/products/mod13c1v006/) for the year 2022. The MCD13C1 product provides vegetation indices (VI), such as the Enhanced Vegetation Index (EVI) and Normalized Difference Vegetation Index (NDVI) data products on a down-sampled climate model grid (CMG, at 0.05$^\circ$ or ~5km resolution). This down-sampled data product reduces the volume of data to download and process, but should allow you to explore broad continental scale patterns when calculating vegetation (or land surface) phenology metrics.
-
-With all data downloaded:
-
-- Combine all EVI data (23 layers) into a single compressed geotiff file (write to file)
-- Read in the geotiff file to work faster from memory
-- For a first trial crop the full dataset to 26$^\circ$W, 20$^\circ$E, 31$^\circ$N, 70$^\circ$N
-- Apply the algorithm as outlined in REF using a start of season greenup signal of 25% the seasonal EVI amplitude
-- Assess the performance of the algorithm across the globe and discuss its consistency. 
-  - Where does it fail? How does it fail? 
-  - Where necessary, inspect point locations to explore potential issues.
-  - If possible, address any issues by altering the original algorithm.
-
-- Could you scale this globally?
-  - How long would it take?
-  - Can you improve calculation times?
-
-Plot the global phenology maps, and its various iterations in the R markdown notebook.
-
-::: {.callout-note}
-## Note
-
-All information for this exercise can be found in REF and REF. As before, additional meta-data will need to be consulted online to provide context or data conversion instructions in some cases.
-
-:::
-
-## Phenology modelling
-
-- How can you improve the model used to regionally scale the results in REF? 
-  - Provide at least three (3) ways to improve the model used.
-- Implement at least one of these methods
-- Statistically compare the results with the MODIS MCD12Q2 phenology product
-  - compare the data spatially
-  - describe why you might or might not see the same patterns
-  - consider that 2010 was a 'special' year for the north east of the US
-
-## Land-Use and Land-Cover modelling
-
-- How can you improve the model used to map LULC? 
-  - Provide at least four (4) ways to improve the model used.
-- Implement at least two of these methods yourself
 - Demonstrate improved model skill by submitting your model results to our internal leaderboard
-  - the leaderboard requires you to submit a CSV file with labels
-    - training data can be downloaded [here](https://zenodo.org/records/8298491)
-    - test data (out-of-sample) can be downloaded [here](https://zenodo.org/records/8298491), note that this is unlabelled
+  - the leaderboard requires you to submit a CSV file with your fLUE predicted values for the test data set
+    - training data can be downloaded [in the data subfolder](https://github.com/geco-bern/drought_predictors_competition)
+    - test data (out-of-sample) can be downloaded [in the data subfolder](https://github.com/geco-bern/drought_predictors_competition), note that this does not contain the target values of fLUE
     - submissions should be made as a **pull request** to the [AGDS2 course repository](https://github.com/geco-bern/agds2_course)
-    - your CSV file with labels should be stored in `data/leaderboard/fall_2023`
-    - the file should be named `xyz_results.csv` (replace xyz with your github username)
+    - your CSV file with labels should be stored in `data/leaderboard/fLUE_fall_2025/[username]_results.csv`
+    - the file should be named `[username]_results.csv` (replace [username] with your github username)
 
-::: {.callout-note}
-## Note
-Use the appropriate APIs to download the required data.
-:::
