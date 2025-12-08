@@ -6,4 +6,8 @@
 /.quarto/
 _book/
 
-/data/fLUE/
+
+
+data-raw/compile_training_data_competition.R
+data/competition2025_test_data_complete.rds
+data/machine_learning_training_data.rds
