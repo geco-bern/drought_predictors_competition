@@ -1,5 +1,5 @@
 library(dplyr)
-
+library(readr)
 df <- read_rds("~/index_based_drought_monitoring-stineb/data/machine_learning_training_data.rds") # only on beni's machine ;-)
 
 set.seed(123)  # for reproducibility
@@ -41,13 +41,17 @@ df_train <- df |>
 # )
 
 write_csv(
-  df_train |> 
-    select(-cluster),
-  here("../data/competition2025_training_data.csv")
-  )
+  df_train,
+  here::here("../data/competition2025_training_data.csv")
+)
 
 write_csv(
   df_test |> 
-    select(-flue, -is_flue_drought, -cluster),
-  here("../data/competition2025_testing_data.csv")
+    select(-flue),
+  here::here("../data/competition2025_testing_data.csv")
+)
+
+write_csv(
+  df_test,
+  here::here("../data/competition2025_testing_data_full.csv")
 )
