@@ -35,9 +35,11 @@ Of course, the training data for such models is a bottleneck. Measuring the phys
 Here, we make use of ecosystem-level data that is based on eddy covariance measurements and estimates the fractional reduction in the light use efficiency of ecosystem photosynthesis due to soil moisture stress (fLUE). These estimates are derived from the approach developed by @stocker18newphyt. Data is available on Zenodo [@flue_data]. The advantage of these data is that it provides continous observations over the course of several years, representative for canopy-integrated ecosystem-level fluxes, and available from a diverse set of sites, distributed across different climate zones and vegetation types in different regions globally.
 
 Let's start by reading the data.
-```{r, warning=FALSE}
+```{r}
+#| message: false
+#| warning: false
 # read data
-df <- read_rds(here("../data/competition2025_training_data.rds"))
+df <- read_csv(here("../data/competition2025_training_data.csv"))
 
 # read site meta information
 df_site_metainfo <- read_csv(here("../data/fdk_site_info.csv"))
