@@ -4,6 +4,11 @@ df <- read_rds("~/index_based_drought_monitoring-stineb/data/machine_learning_tr
 
 set.seed(123)  # for reproducibility
 
+# remove vegtypes where we have only one site:
+#      This concerns CSH (closed shrublands) site (IT-Noe)
+df <- df |>
+  group_by(vegtype) |> filter(length(unique(site)) > 1) |> ungroup()
+
 # withold sites
 df_sites_test <- df |> 
   select(site,  vegtype) |> 
